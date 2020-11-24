@@ -27,4 +27,4 @@ The numbers of times the GGD authorised the sharing of unique ids can be found i
 |---|---|---|
 | Date | Date for this entry | YYYY-MM-DD|
 | Reported positive tests through app authorised by GGD (daily) | Number of times a GGD key was authorised for the specified date| Number|
-|Reported positive test through app authorised by GGD (cumulative)| Cumulative number of positive tests that are authorised by the GGD up to and including the specified date| Number|
+|Reported positive test through app authorised by GGD (cumulative)| Cumulative number of positive tests that are authorised by the GGD up to and including the specified date| Number| 
