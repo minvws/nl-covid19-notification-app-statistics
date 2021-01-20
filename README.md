@@ -28,3 +28,25 @@ The numbers of times the GGD authorised the sharing of unique ids can be found i
 | Date | Date for this entry | YYYY-MM-DD|
 | Reported positive tests through app authorised by GGD (daily) | Number of times a GGD key was authorised for the specified date| Number|
 |Reported positive test through app authorised by GGD (cumulative)| Cumulative number of positive tests that are authorised by the GGD up to and including the specified date| Number|
+
+### GGD weekly test results following notification from CoronaMelder
+
+Users of CoronaMelder who receive a notification that they may have been in contact with another user of CoronaMelder who has tested positive, are able to get tested for the coronavirus SARS-CoV-2 regardless of whether they are symptomatic or asymptomatic.
+
+The number of tests taken, the number of positive test results, and the positivity rates of these tests can be found in [statistics/ggd_weekly_tests_following_notification_CM.csv](https://github.com/minvws/nl-covid19-notification-app-statistics/blob/main/statistics/ggd_weekly_tests_following_notification_CM.csv)
+
+_Note: this data is not yet available on GitHub. However, VWS has the intention to share the data on this location. As such, preparations are made._
+
+| Column name | Description | Format |
+|---|---|---|
+| Week | The week number for this entry | Number |
+| Test Requests | The total number of tests requested | Number |
+| Total Test Results | The total number of test results | Number |
+| Total Positive | The total number of positive test results | Number |
+| Total %Positive | The positivity rate of the total number of test results | Number |
+| Asymptomatic Test Results | The number of test results for coronavirus cases that are asymptomatic | Number |
+| Asymptomatic Positive | The number of positive test results for coronavirus cases that are asymptomatic | Number |
+| Asymptomatic %Positive | The positivity rate of the test results for coronavirus cases that are asymptomatic | Number |
+| Symptomatic Test Results | The number of test results for coronavirus cases that are symptomatic | Number |
+| Symptomatic Positive | The number of positive test results for coronavirus cases that are symptomatic | Number |
+| Symptomatic %Positive | The positivity rate of the test results for coronavirus cases that are symptomatic | Number |
