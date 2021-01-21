@@ -35,8 +35,6 @@ Users of CoronaMelder who receive a notification that they may have been in cont
 
 The number of tests taken, the number of positive test results, and the positivity rates of these tests can be found in [statistics/ggd_weekly_tests_following_notification_CM.csv](https://github.com/minvws/nl-covid19-notification-app-statistics/blob/main/statistics/ggd_weekly_tests_following_notification_CM.csv)
 
-_Note: this data is not yet available on GitHub. However, VWS has the intention to share the data on this location. As such, preparations are made._
-
 | Column name | Description | Format |
 |---|---|---|
 | Week | The week number for this entry | Number |
