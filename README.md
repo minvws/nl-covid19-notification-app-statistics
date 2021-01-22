@@ -37,6 +37,7 @@ The number of tests taken, the number of positive test results, and the positivi
 
 | Column name | Description | Format |
 |---|---|---|
+| Year | The year for this entry | Number |
 | Week | The week number for this entry | Number |
 | Test Requests | The total number of tests requested | Number |
 | Total Test Results | The total number of test results | Number |
