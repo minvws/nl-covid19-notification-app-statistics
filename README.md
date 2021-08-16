@@ -11,9 +11,9 @@ App download numbers can be found in [statistics/app_store_downloads.csv](https:
 | Column name |Description | Format |
 |---|---|---|
 | Date | Date for this entry | YYYY-MM-DD|
-| Downloads App Store (iOS) (daily) | CoronaMelder iOS downloads as reported by the App Store| Number|
+|Downloads App Store (iOS) (daily) | CoronaMelder iOS downloads as reported by the App Store| Number|
 |Downloads Play Store (Android) (daily)| CoronaMelder Android downloads reported by Google Play| Number|
-|Downloads Huawei App Gallery (Android) (daily)| CoronaMelder Android downloads reported by Huawei App Gallery| Number|
+|Downloads Huawei App Gallery (Android) (daily)| CoronaMelder Android downloads reported by Huawei App Gallery. Note, as of the 10th of August 2021 CoronaMelder is removed from Huawei App Galery | Number|
 |Total downloads (daily)| Total downloads for the specified date for all app stores| Number|
 |Total downloads (cumulative)| Cumulative number of downloads up to and including the specified date| Number|
 
