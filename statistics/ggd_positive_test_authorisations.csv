@@ -1,4 +1,4 @@
-"Date (yyyy-mm-dd)","Reported positive tests through app (daily)","Reported positive test through app (cumulative)","Reported positive tests through app authorized by GGD (daily)","Reported positive test through app authorized by GGD (cumulative)","Reported positive tests through app authorized on coronatest (daily)","Reported positive tests through app authorized on coronatest.nl (cumulative)"
+"Date (yyyy-mm-dd)","Reported positive tests through app authorised by GGD (daily)","Reported positive test through app authorised by GGD (cumulative)","Reported positive tests through app authorized by GGD-only (daily)","Reported positive test through app authorized by GGD-only (cumulative)","Reported positive tests through app authorized on coronatest (daily)","Reported positive tests through app authorized on coronatest.nl (cumulative)"
 2020-08-17,0,0,0,0,0,0
 2020-08-18,3,3,3,3,0,0
 2020-08-19,1,4,1,4,0,0
