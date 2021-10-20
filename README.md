@@ -21,13 +21,26 @@ App download numbers can be found in [statistics/app_store_downloads.csv](https:
 
 For a positive test result the GGD will ask the tested person whether they are using CoronaMelder and if they want to use the app to send a notification. If the user agrees, the code that is shown in the app is entered by the GGD and the user will then proceed to share their unique ids that allow other CoronaMelder apps to check whether they have been in contact with the user. A key can be authorised only once.
 
-The numbers of times the GGD authorised the sharing of unique ids can be found in [statistics/ggd_positive_test_authorisations.csv](https://github.com/minvws/nl-covid19-notification-app-statistics/blob/main/statistics/ggd_positive_test_authorisations.csv)
+Alternatively, as of October 14th, 2021, a person who has been tested positive can authorize the sharing of their own unique ids through the [coronatest.nl](https://coronatest.nl/) website and in this way trigger the notification of people who may have been in their vicinity.
+
+The number of times the sharing of unique ids was authorised can be found in [statistics/ggd_positive_test_authorisations.csv](https://github.com/minvws/nl-covid19-notification-app-statistics/blob/main/statistics/ggd_positive_test_authorisations.csv)
 
 | Column name |Description | Format |
 |---|---|---|
 | Date | Date for this entry | YYYY-MM-DD|
-| Reported positive tests through app authorised by GGD (daily) | Number of times a GGD key was authorised for the specified date| Number|
-|Reported positive test through app authorised by GGD (cumulative)| Cumulative number of positive tests that are authorised by the GGD up to and including the specified date| Number|
+| Reported positive tests through app authorised by GGD (daily) | Number of times a key was authorised for the specified date (total number of authorisations, both through the GGD as well as through [coronatest.nl](https://coronatest.nl/))| Number|
+| Reported positive test through app authorised by GGD (cumulative)| Cumulative number of positive tests that are authorised through the GGD or through [coronatest.nl](https://coronatest.nl/) up to and including the specified date| Number|
+| Reported positive tests through app authorized by GGD-only (daily) | Number of times a key was authorised through the GGD for the specified date| Number|
+| Reported positive test through app authorized by GGD-only (cumulative)| Cumulative number of positive tests that are authorised through the GGD up to and including the specified date| Number|
+| Reported positive tests through app authorized on [coronatest.nl](https://coronatest.nl/) (daily) | Number of times a key was authorised through [coronatest.nl](https://coronatest.nl/) for the specified date| Number|
+| Reported positive tests through app authorized on [coronatest.nl](https://coronatest.nl/) (cumulative)| Cumulative number of positive tests that are authorised through [coronatest.nl](https://coronatest.nl/) up to and including the specified date| Number|
+
+---
+**NOTE**
+
+The first 2 data columns (`Reported positive tests through app authorised by GGD (daily)` and `Reported positive test through app authorised by GGD (cumulative)` still refer to "authorised by GGD" even though the numbers are a reflection of the _total_ number of positive tests authorised, through both the GGD as well as through [coronatest.nl](https://coronatest.nl/). This is due to hard-coded naming in other systems, so the 2 column names sadly cannot be more accurate at this point in time.
+
+---
 
 ### GGD weekly test results following notification from CoronaMelder
 
